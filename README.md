@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 📘 Notes App — Final Submission: Fundamental Web Application with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the **final submission** for the **Belajar Fundamental Aplikasi Web dengan React** course on [Dicoding](https://www.dicoding.com/).  
+Unlike the first-stage submission, this version implements more advanced features such as **authentication**, **API integration**, **theme switching**, and **multi-language support**, while still maintaining the **Single Page Application (SPA)** concept using **React Router DOM**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Description
+Notes App is a web-based note-taking application where users can:
+- Register and log in securely  
+- Create, read, delete, and archive notes  
+- Change the app’s language (Indonesia / English)  
+- Switch between light and dark themes  
 
-### `npm start`
+All data (notes, users, and sessions) are managed using an **external API**.  
+The app only uses **Local Storage** to store the login session token, ensuring a better and more secure experience.  
+Despite multiple pages like Login, Register, Home, Archive, and Detail, the application is built entirely as a **Single Page Application (SPA)**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- **React.js**  
+- **React Router DOM**  
+- **Vite** (for development and build)  
+- **Local Storage API** (for session management)  
+- **External RESTful API** (for notes and user data)  
+- **JavaScript (ES6+)**  
+- **Context API & Hooks (useContext, useEffect, etc.)**  
+- **CSS Modules / Default Styling**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Page Structure
+The application consists of the following main pages:
+- **Login Page** – Allows users to log in using their account credentials  
+- **Register Page** – Allows new users to create an account  
+- **Home Page** – Displays active notes  
+- **Archived Page** – Displays archived notes  
+- **Add Note Page** – Page for adding a new note  
+- **Detail Page** – Displays a note’s content in detail  
+- **404 Page** – Handles undefined routes gracefully  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Features
+- **User Authentication (Login & Register)**  
+- **API-based Notes Management**  
+- **Archive / Unarchive Notes**  
+- **Theme Switcher (Light & Dark Mode)**  
+- **Language Toggle (English / Indonesia)**  
+- **Persistent Session via Local Storage**  
+- **SPA Navigation using React Router DOM**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Future Plans
+- Improve the user interface to make it more modern and user-friendly
+- Redesign the CSS for better layout and responsiveness
+- Deploy the application to a hosting platform (e.g., Netlify or Vercel)
+- Continue refining features for a smoother user experience
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Developer
+Developed by **me** 💻  
+📧 [Email](mailto:luthfia.khairunnisa.s@gmail.com)  
+🔗 [GitHub](https://github.com/luthfiagithub)
